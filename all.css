@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgb(5, 5, 41);
+}
+a {
+    text-decoration: none;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.roll_on {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5in;
+}   
+.roll {
+    height: 220px;
+    width: 250px;
+    border-radius: 50%;
+    border-right: 16px solid crimson;
+    border-left: 16px solid crimson;
+    border-top: 16px solid crimson;
+    border-bottom: 16px solid crimson;
+    animation: key 350ms linear infinite;
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+    display: none;
+    position: absolute;
+}
+/* @keyframes key {
+    to{
+        transform: rotate(360deg);
+    }
+} */
+.on_roll {
+    height: 160px;
+    width: 160px;
+    border-radius: 60%;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid crimson;
+    border-right: 16px solid crimson;
+    border-left: 16px solid crimson;
+    animation: book 350ms linear infinite;
+    position: absolute;
+    margin-top: 4%;
+    display: none;
+}
+@keyframes book {
+    to{
+        transform: rotate(-360deg)
+    }
+}
+.tri {
+    color: gold;
+    transition: all 1s;
+    position: absolute;
+    margin-top: 8.3pc;
+    font-size: larger;
+    display: none;
+    font-weight: bold
+}
+.type {
+    color: white;
+    margin-top: 3.4in;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.field_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5in;
+}
+.field {
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    width: 40%;
+    color: white;
+}
+.ema {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.emak {
+    display: flex;
+    justify-content: center;
+}
+.email {
+    width: 95%;
+    height: 40px;
+    padding-left: 7px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    color: white;
+    background-color: black;
+}
+.pa {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pass {
+    width: 95%;
+    height: 40px;
+    padding-left: 7px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+}
+.create {
+    color: crimson;
+    text-align: center;
+}
+.btn {
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    width: 80%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 840px) {
+    .on_roll {
+        margin-top: 12%;
+    }
+    .field {
+        width: 85%;
+        margin-top: 0.3in;
+    }
+}

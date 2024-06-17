@@ -1,0 +1,321 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgb(5, 5, 41);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.papa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.superpapa {
+    width: 76.9%;
+    background-color: rgb(5, 5, 41);
+    height: 100%;
+}
+
+.subpapa {
+    width: 23%;
+    background-color: rgb(10, 10, 71);
+    background-size: cover;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.welcome {
+    color: white;
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.tap {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+.num {
+    color: crimson;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.money-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 90px;
+    width: 100px;
+    padding-top: 12px;
+    color: goldenrod;
+    background-color: gold;
+}
+
+.mon {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 18px;
+    width: 22px;
+    padding-top: 4px;
+    color: goldenrod;
+    background-color: gold;
+    margin-top: 5px;
+}
+
+.dish {
+    background-color: steelblue;
+    height: 100px;
+}
+
+.mar {
+    color: lightgrey;
+    letter-spacing: 1px;
+}
+
+.marq {
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: rgb(62, 59, 59);
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    width: 92%;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.fiel {
+    width: 92%;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.avail {
+    color: tomato;
+    margin-left: 10px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.coins {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bit {
+    margin-top: 5px;
+}
+
+.doll {
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+#moni {
+    font-size: x-large;
+}
+
+.bet {
+    border: none;
+    border-radius: 7px;
+    width: 120px;
+    height: 30px;
+    background-color: darkgreen;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.tric {
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fix {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dis {
+    border-top: 1px solid azure;
+    color: white;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-bottom: 1px solid azure;
+    margin-top: 40px;
+}
+
+.disk {
+    color: white;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-bottom: 1px solid azure;
+}
+
+.btn {
+    border: none;
+    border-radius: 7px;
+    width: 120px;
+    height: 30px;
+    background-color: darkgreen;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.not {
+    color: white;
+    text-align: center;
+    margin-top: 1in;
+}
+
+.task {
+    font-size: x-large;
+    color: coral;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.here {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1in;
+}
+
+.us {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.bt {
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    word-spacing: 1px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.each {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.inp {
+    height: 30px;
+    width: 90%;
+    border: 1px solid grey;
+    padding-left: 10px;
+    margin-top: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.there>i {
+    display: none;
+}
+
+@media (max-width: 840px) {
+    body {
+        background-color: rgb(5, 5, 41);
+    }
+
+    .subpapa {
+        overflow-y: hidden;
+        width: 0%;
+        position: fixed;
+        height: 100%;
+        transition: all 700ms;
+    }
+
+    .superpapa {
+        width: 100%;
+    }
+
+    .papa {
+        display: block;
+    }
+
+    .fiel {
+        width: 85%;
+        height: 3in;
+    }
+
+    .field {
+        width: 85%;
+    }
+
+    .mar {
+        display: none;
+    }
+
+    .marq {
+        background-color: aquamarine;
+        display: flex;
+        height: 35px;
+        justify-content: space-between;
+    }
+
+    .there>i {
+        display: block;
+    }
+
+    .sect {
+        display: none;
+    }
+}
